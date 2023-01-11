@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 780px;
+    padding-right: 30px;
+    padding-bottom:30px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative; 
+    
+    
+}
+
+.avatar{
+    height: 500px;
+    border-radius: 50px 0px 10px 0px;
+    
+
+}
+
+.profile_picture {
+    margin-right: 50px;
+    
+}
+
+.general_info {
+    display: flex;
+}
+
+.about {
+    width: 370px;
+    text-align: justify;
+}
+
+.li_content {
+    color: white;
+    margin-left: 25px;
+    font-family: Inter;
+    font-weight:500;
+    font-size: 14px;
+}
+
+p {
+    color:white;
+    font-family: Inter;
+    font-weight:500;
+    font-size: 14px;
+}
+
+h3 {
+    color:white;
+    margin-bottom: 8px;
+    margin-top:23px;
+    font-family: Inter;
+    font-weight:700;
+}
+
+h2 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-family: Inter;
+    font-weight:200;
+}
+
+.left_box, .right_box{
+    color: white;
+    font-family: Inter;
+    font-weight:500;
+    font-size: 14px;
+}
+
+.nick_name {
+    color:white;
+    font-size: 48px;
+    margin-left: 30px;
+    font-family: Inter;
+    font-weight:200;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.full_name {
+    color: white;
+    margin-left: 30px;
+    font-family: Inter;
+    font-weight:500;
+    font-size: 16px;
+}
+
+li.li_content:not(:last-child) { 
+    margin-bottom: 5px;  
+}

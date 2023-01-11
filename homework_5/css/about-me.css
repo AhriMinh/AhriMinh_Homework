@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about-me--title {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Poppins;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.about-me-info {
+    font-size: 16px;
+    color: rgb(138, 143, 163);
+    font-family: Poppins;
+    max-width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.about-me-desc-container {
+    display: flex;
+    max-width: 67%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 50%;
+}
+
+.text-title {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: rgb(50, 51, 60);
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.text-desc {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins;
+    color:rgb(138, 143, 163);
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.text-info {
+    display: flex;
+    max-width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+i {
+    color:#754ef9;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.general-info {
+    display: flex;
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+.general-info p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(50, 51, 60);
+}
+
+.details {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(138, 143, 163);
+
+}
+
+.about-me-desc-container {
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.static {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.static-item {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.static-item-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-skill {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(50, 51, 60);
+}
+
+.percentage {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(50, 51, 60);
+}
+
+.gray-bar {
+    max-width: 100%;
+    height: 5px;
+    background-color: rgb(138, 143, 163);
+    border-radius: 5px;
+    border: none;
+    position: relative;
+
+}
+
+.purple-bar {
+    width: 80%;
+    height: 5px;
+    background-color: rgb(117, 78, 249);
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+@media (max-width: 850px) {
+
+    .static {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+}
+

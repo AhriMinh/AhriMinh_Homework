@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.in-touch--title {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: Poppins;
+    text-align: center;
+
+}
+
+.in-touch--info {
+    font-size: 16px;
+    color: rgb(138, 143, 163);
+    font-family: Poppins;
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+}
+
+.contact-item {
+    padding: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(138, 143, 163);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+}
+
+.contact-item-title {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.contact-item-info {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(138, 143, 163);
+    max-width: 270px;
+    text-align: center;
+}
+
+i {
+    font-size: 40px;
+    color: #754ef9;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-footer {
+    max-width: 1036px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    width: 500px;
+    height: 53px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-radius: 3px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(138, 143, 163);
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.email {
+    width: 500px;
+    height: 53px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-radius: 3px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(138, 143, 163);
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.message {
+    width: 500px;;
+    height: 133px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-radius: 3px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(138, 143, 163);
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.contact-button {
+    height: 50px;
+    width: 180px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    background-color:rgb(117,78,249);
+    border-color: rgb(117,78,249);
+    color: white;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 5px 8px 0 rgb(118 78 249 / 55%);
+    
+
+}

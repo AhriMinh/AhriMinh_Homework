@@ -1,0 +1,30 @@
+.navigation {
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9;
+}
+
+.navigation-container {
+    display: flex;
+    max-width: 50%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    height: 120px;
+}
+
+.navigation-item {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(138, 143, 163);
+}
+
+.navigation-options {
+    display: flex;
+    column-gap: 20px;
+}

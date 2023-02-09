@@ -1,0 +1,586 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+  :root {
+    --primary-color: #D21200;
+    --background-color-1: #EAE5D9;
+    --background-color-2: #CCC1AA;
+    --background-color-3: #392E2D;
+    --background-color-4: #FFFFFF;
+    --text-color-0: #000000;
+    --text-color-1: #282828;
+    --text-color-2: #EAE5D9;
+    --text-color-4: #18191f;
+    --text-color-5: #D21200;
+  
+  }
+  
+  body {
+    font-family: Sevillana;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 215px;
+    max-width: 1242px;
+    
+  }
+
+  .header p {
+    font-size: 53px;
+    font-weight: 400;
+  }
+
+  .header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 36px;
+  }
+
+  .header-nav-item a {
+    text-decoration: none;
+    color: var(--text-color-0);
+    font-size: 25px;
+    font-weight: 400;
+
+
+  }
+
+  .header img {
+    height: 52px;
+    width: 52px;
+
+  }
+
+  .main-part {
+    background-color: var(--background-color-1);
+  }
+
+  .hero {
+    justify-content: center;
+    position: relative;
+    
+  }
+
+  .hero h2 {
+    font-size: 60px;
+    max-width: 890px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 123px;
+
+  }
+
+  .hero .hero-details {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 599px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Montserrat;
+    color: var(--text-color-1);
+    margin-bottom: 776px;
+  }
+
+  .hero button {
+    width: 230px;
+    height: 70px;
+    border: none;
+    border-radius: 35px;
+    background-color: var(--primary-color);
+    color: var(--text-color-2);
+    font-family: Montserrat;
+    font-size: 32px;
+    position: absolute;
+    top: 390px;
+    left: 604px;
+
+  }
+
+  .pic-1 {
+    width: 739px;
+    height: 644px;
+    position: absolute;
+    top: 458px;
+    left: 351px;
+  }
+
+  .pic-2 {
+    width: 334px;
+    height: 500px;
+    position: absolute;
+    top: 562px;
+    right: 86.27px;
+  }
+
+  .pic-3 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 562px;
+    left: -35px;
+  }
+
+  .menu {
+    position: relative;
+  }
+
+  .menu h2 {
+    font-size: 60px;
+    max-width: 890px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 123px;
+  }
+
+  .menu-list {
+    display: flex;
+    max-width: 1212px;
+    flex-wrap: wrap;
+    column-gap: 66px;
+    row-gap: 163px;
+    align-items: center;
+  }
+
+  .menu .menu-details {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 599px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Montserrat;
+    color: var(--text-color-1);
+    margin-bottom: 103px;
+  }
+
+  .menu .menu-list {
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .menu-list-item {
+    height: 350px;
+    width: 360px;
+    background-color: var(--background-color-3);
+    border-radius: 10px;
+    position: relative;
+
+  }
+
+  .menu-list-item .item-image-1 {
+    position: absolute;
+    top: -110px;
+    left: -150px;
+  }
+
+  .menu-list-item .item-image-2 {
+    position: absolute;
+    top: -150px;
+    left: -80px;
+  }
+
+  .menu-list-item .item-image-3 {
+    position: absolute;
+    top: -130px;
+    left: -130px;
+  }
+
+  .menu-list-item .item-image-4 {
+    position: absolute;
+    top: -130px;
+    left: -130px;
+  }
+
+  .menu-list-item .item-image-5 {
+    position: absolute;
+    top: -120px;
+    left: -130px;
+  }
+
+
+  .menu-list-item .price {
+    position: absolute;
+    right: 34px;
+    top: 89px;
+    color: var(--text-color-2);
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Montserrat;
+  }
+
+  .menu-list-item h4 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39.66px;
+    color: var(--text-color-2);
+    position: absolute;
+    top: 178px;
+    left: 43px;
+  }
+
+  .menu-list-item .ordering{
+    display: flex;
+  }
+
+  .menu-list-item .ordering p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.44px;
+    color: var(--text-color-2);
+    position: absolute;
+    top: 219px;
+    left: 43px;
+  }
+
+  .menu-list-item .ordering i {
+    color: var(--text-color-2);
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+    top: 230px;
+  }
+
+  .menu-list-item .rating {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.44px;
+    color: var(--text-color-2);
+    position: absolute;
+    bottom: 37px;
+    left: 43px;
+  }
+
+  .menu-illustration {
+    height: 718px;
+    width: 1242px;
+    background-color: var(--background-color-3);
+    position: relative;
+    margin-bottom: 900px;
+  }
+
+  .menu-illustration h1 {
+    font-size: 73px;
+    font-weight: 400;
+    color: var(--background-color-1);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 41px;
+  }
+
+  .menu-illustration-details .information .number {
+    color: var(--text-color-2);
+    font-family: Buda;
+    font-weight: 300;
+    font-size: 250px;
+  }
+  .menu-illustration-details{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+  .menu-illustration-details .information .info {
+    color: var(--text-color-2);
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 23px;
+    max-width: 590px;
+  }
+
+  .menu-illustration-details .picture-1 {
+ 
+    z-index: 1;
+  }
+
+  .menu-illustration-details .picture-2 {
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: 670px;
+  }
+
+  .menu-illustration-details button {
+    border: none;
+    height: 126px;
+    width: 126px;
+    border-radius: 63px;
+    background-color: var(--background-color-4);
+    color: var(--background-color-3);
+    font-family: Montserrat;
+    font-size: 20px;
+  }
+
+  .menu-dishes-image-1 {
+    position: absolute;
+    top: 2200px;
+    left: 106px;
+  }
+
+  .menu-dishes-image-2 {
+    position: absolute;
+    top: 2500px;
+    right: 109px;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+
+  .about .about-text .about-text-first-line {
+    color: var(--text-color-5);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+  }
+  .about .about-text h2 {
+    color: var(--text-color-0);
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 40px;
+  }
+
+  .about .about-text h3 {
+    color: var(--text-color-0);
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Montserrat;
+    padding-bottom: 20px;
+  }
+
+  .about .about-text .about-text-content {
+    color: var(--text-color-0);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Montserrat;
+    max-width: 620px;
+    padding-bottom: 20px;
+  }
+
+  .about .about-text .about-text-button {
+    width: 178px;
+    height: 46px;
+    border-radius: 23px;
+    border: none;
+    background-color: var(--primary-color);
+    font-family: Montserrat;
+    color: var(--text-color-2);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  .about-picture {
+    width: 620px;
+    height: 700px;
+    position: relative;
+  }
+
+  .about-picture .picture-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .about-picture .picture-2 {
+    position: absolute;
+    left: 30px;
+    top: 320px;
+  }
+
+  .about-picture .picture-3 {
+    position: absolute;
+    left: 310px;
+    top: 150px;
+  }
+
+  .review .review-first-line {
+    color: var(--text-color-5);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .review {
+    justify-content: center;
+  }
+
+  .review h2 {
+    color: var(--text-color-0);
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .review-list {
+    display: flex;
+    gap: 30px;
+    max-width:  1242px;
+    margin: 0 auto;
+    margin-bottom: 293px;
+  }
+
+  .review-list-item {
+    display: flex;
+    height: 286px;
+    width: 394px;
+    background-color: var(--background-color-2);
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .review-list-item .avatar {
+    height: 229px;
+    width: 115px;
+    padding-left: 5px;
+  }
+
+  .review-list-item .content .review-details {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--text-color-0);
+    max-width: 247px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+  }
+  .name {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--text-color-0);
+    max-width: 247px;
+    border-top-color: #000000;
+    border-top-width: 1px;
+    border-top-style: solid;
+    line-height: 16px;
+    padding-top: 0px;
+  }
+
+  .booking {
+    display: flex;
+    gap: 38px;
+    max-width: 1242px;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 132px;
+  }
+
+  .booking .booking-banner {
+    height: 404px;
+    width: 622px;
+  }
+
+  .booking .booking-info .booking-title {
+    font-size: 65px;
+    font-weight: 400;
+    padding-bottom: 39px;
+
+  }
+
+  .booking .booking-info .booking-details {
+    font-family: Montserrat;
+    font-size: 25px;
+    max-width: 538px;
+    padding-bottom: 59px;
+  }
+
+  .booking .booking-info .booking-direction a {
+    text-decoration: none;
+    font-size: 65px;
+    font-weight: 400;
+    color: var(--text-color-0);
+    padding-right: 120px;
+
+  }
+
+  .booking-direction {
+    border-bottom-width: 1px;
+    border-bottom-color:#000000;
+    border-bottom-style: solid;
+  }
+
+  .footer {
+    background-color: var(--background-color-2);
+    height: 370px;
+  }
+
+  .footer-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1242px;
+    margin: 0 auto;
+    padding-bottom: 39px;
+    padding-top: 50px;
+
+  }
+  .footer-category {
+    width: 270px;
+  }
+
+  .footer-category h2 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1242px;
+    margin: 0 auto;
+  }
+
+  .footer-content-category p {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Montserrat;
+    width: 270px;
+    padding-bottom: 15px;
+  }
+
+  .footer-title {
+    border-bottom-width: 1px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+

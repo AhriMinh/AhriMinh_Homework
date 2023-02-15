@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_9</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet"
+    />
+    <script src="index.js"></script>
+</head>
+<body>
+    <section class="part1">
+        <h1 class="heading-bai1">
+            Học Javascript thật đơn giản
+        </h1>
+        <button onclick=turnOff() class="turnoff-button">Turn off</button>
+        <img id="lightbub" src="picture/pic_bulboff.gif">
+        <button onclick=turnOn() class="turnon-button">Turn on</button>
+    
+        <script>
+            function turnOff() {
+                document.getElementById("lightbub").src="picture/pic_bulboff.gif"
+            }
+    
+            function turnOn() {
+                document.getElementById("lightbub").src="picture/pic_bulbon.gif"
+            }
+        </script>
+    </section>
+
+    <section class="part3">
+        <div class="part3-container">
+            <h1>Đăng Nhập</h1>
+            <form id="login-form">
+                <div class="form-group">
+                    <label class="username">Tài khoản:</label>
+                    <input type="text" id="username" placeholder="username" required>
+                </div>
+                <div class="form-group">
+                    <label class="password">Mật khẩu:</label>
+                    <input type="password" id="password" placeholder="password" required>
+                </div>
+            <button type="submit" id="submit-btn">Đăng nhập</button>
+            </form>
+        </div>
+        
+
+        <script>
+            const form = document.getElementById('login-form');
+            const usernameInput = document.getElementById('username');
+            const passwordInput = document.getElementById('password');
+            const loginBtn = document.getElementById('submit-btn');
+
+            loginBtn.addEventListener('click', function() {
+            const username = usernameInput.value;
+            const password = passwordInput.value;
+
+            if (username === 'admin' && password === 'admin123') {
+                alert('Bạn đã đăng nhập thành công');
+            } else {
+                alert('Bạn đã đăng nhập thất bại, mời đăng nhập lại!');
+            }
+
+            form.reset();
+            });
+        </script>
+
+    </section>
+
+
+
+</body>
+</html>

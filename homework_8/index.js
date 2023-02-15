@@ -70,6 +70,30 @@ console.log("Tên của các nhân viên là:", alertName(users));
  // John, Pete, Mary
 
 
+//  BT 4:
+ let users_2 = [
+   {
+     id: 123,
+     lastName: "Nguyen",
+     firstName: "Hoang",
+     age: 30,
+   },
+   {
+     id: 3434,
+     lastName: "Nguyen",
+     firstName: "Hoang",
+     age: 30,
+   },
+   {
+     id: 21,
+     lastName: "Nguyen",
+     firstName: "Hoang",
+     age: 30,
+   },
+ ];
+
+//  Tạo hàm đưa vào một mã id và một mảng chứa thông tin các nhân viên, in ra lời chào cho nhân viên có id tồn tại trong mảng đó.
+
 /**
  * Cho danh sách products như trong file data.js:
  * 1. In ra danh sách các sản phẩm có price >=50
